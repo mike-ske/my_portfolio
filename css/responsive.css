@@ -1,0 +1,397 @@
+@media only screen and (max-width: 768px){
+
+    .grid__center {
+        width: 100%;
+        height: auto;
+    }
+
+    section {
+        width: auto;
+        height: auto;
+        padding: 0px 8px;
+    }
+
+    .nav {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 70px;
+        width: auto;
+    }
+    /* ================= RESPONSIVE HEROE SECTION =============== */
+    .hero__main {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .headline {
+        width: 100%;
+        height: auto;
+    }
+
+    .head {
+        font-size: 45px;
+    }
+
+
+    .sub {
+        font-size: 14px;
+    }
+
+    .icons__dev {
+        bottom: -200px;
+    }
+ 
+    .hire > a {
+        font-size: 14px;
+    }
+    .hire i{
+        font-size: 30px;
+        width: 60px;
+    }
+    .hire:hover::after {
+        content: "";
+        width: 95px;
+        height: 3px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 264px;
+    }
+    .banner > img{
+        width: 100%;
+        height: 100%;
+        right: 0px;
+    }
+        /* ================= END RESPONSIVE HEROE SECTION =============== */
+
+        /* ================= RESPONSIVE ABOUT SECTION =============== */
+    .abt_sec {
+        flex-direction: column;
+        margin: 50px auto;
+        width: 100%;
+    }
+    .abt__par {
+        margin: 0px 1px;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .sub__title__4 .st__txt, 
+    .sub__title__3 .st__txt, 
+    .sub__title__2 .st__txt,
+     .sub__title__1 .st__txt, 
+    .sub__title .st__txt {
+        font-size: 30px;
+    }
+    .abt__image {
+        width: 221px;
+        height: 277px;
+    }
+
+    .about {
+        padding: 150px 8px;
+    }
+    .my__soc {
+        justify-content: center;
+    }
+
+    .bx__grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 100px auto;
+        padding: 0px;
+    }
+
+    .skills {
+        padding: 150px 8px;
+    }
+    .outer__bx {
+        margin: auto;
+        width: 132.2px;
+        height: 133px;
+    }
+
+    .inner__bx {
+        width: 123.44px;
+        height: 124.24px;
+    }
+    .inner__bx > i {
+        font-size: 70px;
+    }
+
+    .min_box {
+        width: 100%;
+        grid-template-areas:
+        "box_1"
+        "box_2"
+        "box_3"
+        "box_4";
+        padding:0px;
+    }
+
+    .grid__box {
+        width: 100%;
+        margin: auto;
+        height: 350px;
+        background-position: center;
+    }
+
+    .box_4 {
+        background-image: url(../img/4.png);
+    }
+    .grid__sm__box {
+        flex-direction: column;
+        row-gap: 35px;
+        padding: 0px;
+    }
+    .box1 {
+        width: 250px;
+        height: 320px;
+    }
+    .box1 > p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .box1 > h3 {
+        font-size: 20px;
+    }
+
+    .box1 > i, 
+    .box1 > .iconify {
+        font-size: 94px;
+    }
+
+    .cont__section {
+        grid-template-areas:
+            "con__sec__1"
+            "con__sec__2"
+            "connected";
+    }
+
+    .c__head {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .c__txt {
+        font-size: 20px;
+    }
+    .c__cv i {
+        font-size: 44px;
+        width: 10px;
+    }
+
+    .c__cv a {
+        font-size: 16px;
+    }
+    input[type=text], 
+    input[type=email], 
+    textarea, 
+    .type {
+        font-size: 13px;
+        padding: 8px;
+        max-width: -webkit-fill-available;
+    }
+    input[type=text]::placeholder, 
+    input[type=email]::placeholder, 
+    textarea::placeholder, 
+    .type::placeholder {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .send {
+        padding: 8px;
+        font-size: 16px;    
+    }
+    .form__con {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .con__txt {
+        font-size: 20px;
+    }
+
+    .ft__nav {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .ft__list {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .bottom, 
+    .ft__list{
+        flex-direction: column;
+    }
+    .ft__social > h3, 
+    .copy > h3 {
+        text-align: center;
+    }
+
+    .connect__23 {
+        bottom: 30px;
+        right: 15px;
+    }
+
+    .c__cv:hover::after {
+        content: "";
+        width: 172px;
+    }
+
+    .back_image {
+        background-image: url(../img/Developer_2.png);
+    }
+ 
+    .headline {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .outer__bx {
+        width: 109.2px;
+        height: 119px;
+    }
+
+    .inner__bx {
+        width: 100.44px;
+        height: 112.24px;
+        padding: 7px;
+    }
+    .inner__bx > i {
+        font-size: 60px;
+    }
+
+    .inner__bx > p {
+        font-size: 12px;
+    }
+
+    .box1 {
+        width: 320px;
+        height: 320px;
+        padding: 12px;
+    }
+
+    .c__head {
+        font-size: 45px;
+    }
+    .c__txt {
+        font-size: 16px;
+    }
+
+    .sapp,
+    .c__cv a,
+    .phone_1 {
+        font-size: 14px;
+    }
+
+    .sub__title__4 .st__txt, 
+    .sub__title__3 .st__txt, 
+    .sub__title__2 .st__txt, 
+    .sub__title__1 .st__txt, 
+    .sub__title .st__txt {
+        font-size: 28px;
+    }
+
+    .c__cv:hover::after {
+        content: "";
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1424px) and (min-width:768px){
+    .nav {
+        width: auto;
+    }
+
+    section {
+        width: auto;
+        padding: 0px 22px;
+    }
+
+    .grid__center {
+        width: 100%;
+
+    }
+    .form__con {
+        width: 100%;
+    }
+    .banner img {
+        width: 100%;
+        right: 0px;
+    }
+
+    .min_box {
+        padding: 0px 15px;
+    }
+    .bx__grid {
+        padding: 0px;
+        margin: 100px 0px;
+    }
+
+    .grid__box {
+        background-position: center;
+    }
+
+    .headline {
+        width: 100%;
+    }
+    .grid__sm__box {
+        padding: 0px;
+        column-gap: 20px;
+    }
+
+    .box1 {
+        padding: 14px;
+    }
+    .grid__box {
+        width: 100%;
+    }
+
+
+    .abt_sec {
+        padding: 0px 20px;
+        margin: 100px 0px;
+    }
+
+
+    .abt__image {
+        width: 334px;
+        margin: 0px 20px;
+    }
+
+    .abt__par {
+        margin: 0px 23px;
+    }
+
+    .items .list a {
+        font-size: 16px;
+    }
+
+    .outer__bx {
+        margin: auto;
+    }
+
+
+    .connect__23 {
+        bottom: 30px;
+        right: 15px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 350px){
+    .box1 {
+        width: 100%;
+    }
+
+    .grid__sm__box {
+        margin: 100px 20px;
+    }
+}
