@@ -191,10 +191,10 @@
                             
                         </div>
                         <div class="direct">
-                            <a href="#MyPortfolio" class="demo">
+                            <a href="https://thinksoft.site/" class="demo">
                                 <i class="icofont-external-link"></i>
                             </a>
-                            <a href="https://github.com/mike-ske/portfolio/tree/master" class="git">
+                            <a href="https://github.com/mike-ske/my_portfolio/tree/develop" class="git">
                                 <i class='bx bxl-github' ></i>
                             </a>
                             
