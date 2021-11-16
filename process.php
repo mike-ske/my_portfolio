@@ -1,5 +1,5 @@
 <?php 
-require 'dbconn.php';
+// require 'dbconn.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
