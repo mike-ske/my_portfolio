@@ -9,7 +9,7 @@
             </a>
             
             <div class="connect__23">
-                <a href="tel:+2349026995341"><i class='bx bx-phone-call' ></i></a>
+                <a href="tel:+2349121238987"><i class='bx bx-phone-call' ></i></a>
                 <a href="https://wa.me/+2348102974480?text=Good%20day%20Micah%2C%20I%20love%20your%20work%20and%20will%20like%20to%20know%20more%20about%20your%20work%20thank%20you"><i class='bx bxl-whatsapp' ></i></a>
             </div>
 
